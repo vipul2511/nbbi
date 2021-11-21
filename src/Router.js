@@ -333,7 +333,7 @@ const ProductStackNavigator = StackNavigator({
 
 const MainTabNavigator = TabNavigator({
     Benefit: {
-        screen: ProductStackNavigator,
+        screen: BenefitStackNavigator,
         navigationOptions: {
             tabBarLabel: 'Benefits',
             tabBarIcon: ({ tintColor }) => (
